@@ -1,5 +1,7 @@
 Day1:OOP Concept
-
+Object oriented programming:
+  It is a programming paradigm where dealing everything in terms of classes and objects. It helps to organize the code better and
+  allow us to reuse the code. 
 1.Class
   Class is a blueprint or template used to create an object. It contains properties and methods.
       Eg: class Shape{
