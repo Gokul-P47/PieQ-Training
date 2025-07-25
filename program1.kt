@@ -8,9 +8,10 @@ fun main() {
     for (i in 0 until arr.size) {
         print("${arr[i]} ")
     }
-    println()
+    println("Random Number generated :")
     for (i in 0 until 25) {
         val rand = Random.nextInt(0, arr.size)
+        print("${rand} ")
         val tempArr = IntArray(arr.size - 1)
         var idx = 0
         for (j in 0 until arr.size) {
@@ -19,7 +20,7 @@ fun main() {
         }
         arr = tempArr
     }
-
+    println();
     for (i in 0 until arr.size) {
         print("${arr[i]} ")
     }
