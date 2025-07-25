@@ -8,6 +8,7 @@ fun main() {
     for (i in 0 until arr.size) {
         print("${arr[i]} ")
     }
+    println();
     println("Random Number generated :")
     for (i in 0 until 25) {
         val rand = Random.nextInt(0, arr.size)
